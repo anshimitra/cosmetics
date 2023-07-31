@@ -1,0 +1,287 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.page{
+    width: 100%;
+    height: 100vh;
+    background-image: url(../images/bg1.jpg);
+    background-size: cover;
+}
+/* div{
+    border: 1px solid red;
+} */
+.sc1{
+    background-color: black;
+}
+.header{
+    margin: 0 20px;
+    height: 150px;
+}
+.logo{
+    height: 70px;
+    text-align: center;
+    color: #fff;
+    font-size: 45px;
+    font-family: cursive;
+    font-weight: 700;
+}
+.navbar{
+    height: 75px;
+    align-items: center;
+    margin: 0 200px;
+}
+.menubar ul li{
+    float:left;
+    list-style: none;
+    padding-left: 100px;
+    padding-top: 30px;
+    color: #fff;
+    font-weight: 500;
+}
+.container{
+    margin: 50px 150px;
+    height: auto;
+}
+.text{
+    width: 600px;
+    height: auto;
+}
+.heading1{
+    color: #fff;
+    font-size: 20px;
+}
+.heading2{
+    color: #fff;
+    font-size: 70px;
+    font-size-adjust: 10px;
+}
+.heading3{
+    color: #fff;
+    font-size: 20px;
+    margin: 20px 0;
+}
+.text button{
+    color: #fff;
+    border: 2px solid white;
+    background-color: transparent;
+    padding: 15px;
+    cursor: pointer;
+}
+.text button:hover{
+    background-color: #fff;
+    color: aqua;
+}
+.line{
+    height: 130px;
+}
+.line1{
+    color: skyblue;
+    font-size: 19px;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+}
+.line2{
+    color: black;
+    font-size: 40px;
+    text-align: center;
+}
+.line2 p{
+    font-size: 15px;
+    margin-top: 30px;
+}
+.row{
+    width: 100%;
+}
+.col-md-3{
+    width: 23%;
+    float: left;
+    
+}
+.col-md-6{
+    width: 47%;
+    float: left;
+}
+.card{
+    width: 100%;
+    min-height: 400px;
+}
+.card-imag{
+    padding: 10px;
+}
+.card-image img{
+    height: 260px;
+}
+.card-content span{
+    display: block;
+    padding: 10px 0;
+    color: #7A7A7A;
+}
+.card-content p{
+    padding: 5px 0;
+    font-weight: 700;
+}
+.card-title{
+    font-size: 19px;
+    
+} 
+
+.product-card{
+    width: 100%;
+    min-height: 500px;
+   
+}
+.product-card img{
+    height: 330px;
+    padding: 20px;
+}
+.card-text{
+    height: 300px;
+    padding: 20px
+}
+.bold{
+    color: rgba(0, 255, 255, 0.7);
+    text-align: center;
+    font-size: 25px;
+    margin-top: 45px;
+}
+.new{
+    margin: 10px;
+    font-size: 40px;
+}
+span{
+    font-size: 15px;
+    margin-left: 10px;
+    color: #7A7A7A;
+    letter-spacing: 2px;
+}
+.product-card button{
+    color: white;
+    border: 2px solid aqua;
+    background-color: aqua;
+    padding: 15px;
+    cursor: pointer;
+    margin-top: 10px;
+    margin-left: 150px;
+}
+.product-card button:hover{
+    background-color:black;
+    color: aqua;
+
+}
+.main{
+    width: 100%;
+}
+.bg-img{
+    margin-top: 1200px;
+    width: 100%;
+    height: 100vh;
+    background-image: url(../images/pexels-dids-1499517.jpg);
+    background-size: cover;
+}
+.testi{
+    color: aqua;
+    font-size: 30px;
+    margin-left: 900px;
+    margin-top: 200px;
+}
+.clients{
+    margin-left: 500px;
+    margin-top: 20px;
+    font-size: 50px;
+    text-align: center;
+}
+.lorem{
+    margin-left: 700px;
+     margin-top: 400px;
+
+}
+.text1{
+    text-align: center;
+    color: aqua;
+    font-size: 20px;
+    margin-top: 150px;
+    font-weight: 300;
+}
+.text2{
+    text-align: center;
+    font-size: 30px;
+
+}
+.text3{
+    text-align: center;
+    color: #7A7A7A;
+}
+.col-img{
+    margin-left: 40px;
+    padding: 50px;
+    height: 500px;
+}
+.button{
+    width: 100%;
+}
+.button-txt{
+    height: 30px;
+    margin-top: 20px;
+
+}
+.button input{
+    margin-left: 500px;
+    width: 600px;
+    height: 40px;
+} 
+.footer{
+    background-color: #24262b;
+    padding: 70px 0;
+}
+.row2{
+    display: flex;
+    flex-wrap: wrap;
+}
+ul{
+    list-style: none;
+}
+.footer-col{
+    width: 25%;
+    padding: 0 15px;
+}
+.container2{
+    max-width:1170px ;
+    margin: auto;
+}
+.footer-col h4{
+    font-size: 18px;
+    color: #ffffff;
+    text-transform: capitalize;
+    margin-bottom: 35px;
+    font-weight: 500;
+    position: relative;
+}
+.footer-col h4::before{
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    background-color: #e91e63;
+    height: 2px;
+    box-sizing: border-box;
+    width: 50px;
+}
+.footer-col ul li:not(:last-child){
+    margin-bottom: 10px;
+}
+.footer-col ul li a{
+    font-size: 16px;
+    text-transform: capitalize;
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 300;
+    color:#bbbbbb ;
+    display: block;
+    transition: all 0.3s ease;
+}
+.footer-col ul li a:hover{
+    color: #ffffff;
+    padding-left: 10px;
+
+}
